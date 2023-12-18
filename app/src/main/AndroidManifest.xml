@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/smile"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AutismApp"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".Activity.FixAppointment"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.SettingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.GroupChatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ChatDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ChatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.QuizActivity"
+            android:exported="false"
+            android:parentActivityName=".Activity.MainActivity" />
+        <activity
+            android:name=".Activity.MathResultActivity"
+            android:exported="false"
+            android:parentActivityName=".Activity.MainActivity" />
+        <activity
+            android:name=".Activity.MathActivity"
+            android:exported="false"
+            android:parentActivityName=".Activity.MainActivity" />
+        <activity
+            android:name=".Activity.DoctorHomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ParentHomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.SignInActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Video"
+            android:exported="false"
+            android:parentActivityName=".Activity.MainActivity" />
+        <activity
+            android:name=".Activity.Send_SMS"
+            android:exported="false"
+            android:parentActivityName=".Activity.MainActivity" />
+        <activity
+            android:name=".Activity.Eitan_game"
+            android:exported="false"
+            android:parentActivityName=".Activity.MainActivity" />
+        <activity
+            android:name=".Activity.MemoryGame"
+            android:exported="false"
+            android:parentActivityName=".Activity.MainActivity" />
+        <activity
+            android:name=".Activity.Color_Game"
+            android:exported="false"
+            android:parentActivityName=".Activity.MainActivity" />
+        <activity
+            android:name=".Activity.Letters_complete"
+            android:exported="false"
+            android:parentActivityName=".Activity.MainActivity" />
+        <activity
+            android:name=".Activity.LoadingScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

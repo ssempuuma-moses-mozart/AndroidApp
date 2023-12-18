@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background"
+    tools:context=".Activity.Color_Game">
+
+    <TextView
+        android:id="@+id/title_color_game"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="46dp"
+        android:fontFamily="@font/cherry_swash_bold"
+        android:text="Enter The color"
+        android:textAlignment="center"
+        android:textColor="#D30000"
+        android:textSize="36dp"
+        app:layout_constraintBottom_toTopOf="@+id/color_game_img"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/color_game_img"
+        android:layout_width="137dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="22dp"
+        android:text=""
+        app:layout_constraintBottom_toTopOf="@+id/color_hebrew"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title_color_game" />
+
+    <TextView
+        android:id="@+id/color_hebrew"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="27dp"
+        android:fontFamily="@font/cherry_swash_bold"
+        android:text="color Names"
+        android:textAlignment="center"
+        android:textColor="#D30000"
+        android:textSize="36dp"
+        app:layout_constraintBottom_toTopOf="@+id/answer_text_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/color_game_img" />
+
+
+    <EditText
+        android:id="@+id/answer_text_color"
+        android:layout_width="381dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="324dp"
+        android:background="@color/white"
+        android:fontFamily="@font/cherry_swash_bold"
+        android:fadeScrollbars="false"
+        android:hint="Enter the correct color"
+        android:inputType="textPersonName"
+        android:singleLine="true"
+        android:textAlignment="center"
+        android:textColor="#D30000"
+        android:textColorHint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/color_hebrew" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

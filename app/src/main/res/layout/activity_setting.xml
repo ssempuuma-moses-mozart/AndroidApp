@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.SettingActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textViewApp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="60dp"
+            android:fontFamily="@font/earwigfactoryrg"
+            android:text="Support Autism Kids"
+            android:textColor="@color/app_red"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="500dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="30dp"
+            android:text="Supporting a child with autism, especially
+            in the early stages, can be a journey filled with challenges
+            and rewarding moments Remember, every child with autism is unique,
+             and there's no one-size-fits-all approach. Trust your instincts as
+             a parent and continue to learn and grow alongside your child. You're
+              doing a remarkable job in supporting and nurturing your child's development."
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+</ScrollView>

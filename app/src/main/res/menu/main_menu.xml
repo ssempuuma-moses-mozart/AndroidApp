@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/profile"
+        android:title="Profile"
+        android:icon="@drawable/account_circle_24"
+        app:showAsAction="ifRoom"
+        />
+<!--    <item android:id="@+id/manageaccount"-->
+<!--        android:title="Account"-->
+<!--        android:icon="@drawable/manage_accounts_24"-->
+<!--        app:showAsAction="always"-->
+<!--        />-->
+    <item android:id="@+id/refresh"
+        android:title="Refresh"
+        android:icon="@drawable/refresh_24"
+        app:showAsAction="always"
+        />
+</menu>
